@@ -1764,7 +1764,8 @@ max-height: 0;
 	display: grid;
 	align-content: end;
 	text-align: center;
-	height: 500px;
+	width: 250px ;
+	height: 300px ;
 	position: relative;
 	grid-template-rows: 60px 40px;
 	border-bottom: 5px solid var(--renk01);
@@ -1804,6 +1805,9 @@ max-height: 0;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 15px;
 	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap	;
 }
 .ekipb p {
 	margin: 0;
@@ -1815,7 +1819,8 @@ max-height: 0;
 	display: grid;
 	align-content: end;
 	text-align: center;
-	height: 350px;
+	width: 250px;
+	height: 300px;
 	position: relative;
 	grid-template-rows: 60px 40px;
 	border-bottom: 5px solid var(--renk01);
@@ -1878,3 +1883,4 @@ max-height: 0;
 	border: 1px solid #E1E1E1;
 	margin: 5px;
 }
+html { scroll-behavior: smooth;}

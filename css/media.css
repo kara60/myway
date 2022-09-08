@@ -868,3 +868,13 @@
     -moz-animation-duration: 2s !important;
     -o-animation-duration: 2s !important;
     animation-duration: 2s !important;}
+
+    .rc78 ul li a.rc78current:before,
+    .rc78 ul li a.rc78current:active:before {
+        background: var(--rw-accent) !important
+    }
+
+    .rc78.rc78scroll ul li a.rc78current:before {
+        background: transparent !important
+    }
+html {scroll-behavior: smooth;}
