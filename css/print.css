@@ -1,0 +1,13 @@
+/**
+ * @version    3.6.x
+ * @package    Simple Image Gallery Pro
+ * @author     JoomlaWorks - https://www.joomlaworks.net
+ * @copyright  Copyright (c) 2006 - 2019 JoomlaWorks Ltd. All rights reserved.
+ * @license    https://www.joomlaworks.net/license
+ */
+
+/* This stylesheet is used to hide galleries on page print outs */
+@media print {
+	.sigProContainer {display:none;}
+	.sigProPrintMessage {display:block;color:#999;font-size:14px;padding:8px 0;}
+}

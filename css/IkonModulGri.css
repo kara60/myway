@@ -1,0 +1,189 @@
+/**
+ * Created by ithaki ajans
+  * Date: 3.04.2019
+ * Time: 13:30
+ */
+/**
+ * Created by ithaki ajans
+  * Date: 1.04.2019
+ * Time: 14:36
+ */
+:root {
+--ikonyukseklik:90px;
+}
+
+
+/**/
+.IkonModulGri {
+    position: relative;
+text-align: center;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.category-moduleIkonModulGri {
+    width: 100%;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    vertical-align: top;
+    display: grid;
+    grid-gap: 35px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.IkonModulGri li {
+    padding: 17px;
+    margin: 0 !important;
+    display: grid;
+    list-style-type: none;
+    position: relative;
+
+    grid-template-rows: 90px 50px auto;
+    border: 2px solid #cccccc;
+    border-radius: 3px;
+
+    box-shadow: 0px 0px 61px -42px rgba(0,0,0,0.75);
+}
+.IkonModulGri li.onecikan1 {
+
+    border: var(--renk04) 1px solid;
+}
+.IkonModulGri li.onecikan0 {
+
+    border: transparent 1px solid;
+}
+.IkonModulGri .onecikan1:before {
+    content: "";
+    position: absolute;
+    transform: rotate(45deg);
+    height: 50px;
+    width: 50px;
+    top: -25px;
+    right: -25px;
+    z-index: 9;
+    display: block;
+    background-color: var(--renk04);
+}
+.IkonModulGri .onecikan1:after {
+    content: "\f005";
+    font-family: "Font Awesome 5 Free", serif;
+    position: absolute;
+    font-size: 12px;
+    height: 12px;
+    width: 12px;
+    top: -2px;
+    right: 4px;
+    color: #ffffff;
+    z-index: 9;
+    display: block;
+
+}
+
+
+
+.IkonModulGri h4 {
+    text-overflow: ellipsis;
+    margin-top: -15px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    font-weight: 800;
+    font-size: 2vh;
+    padding: 0;
+    color: #737373;
+    padding-top: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-right: -100%;
+}
+
+
+.IkonModulGri h4 a {
+    text-decoration: none;
+    color: #737373;
+
+    font-weight: 600;
+}
+.IkonModulGri .IkonModulGri-introtext {
+    font-size: 13px;
+    margin: 0;
+    line-height: 19px;
+}
+.IkonModulGri-fields {
+
+}
+.IkonModulGri-ikon {
+    font-size: calc( var(--ikonyukseklik) / 2 );
+    line-height: calc( var(--ikonyukseklik) * 1 ) !important;
+    color: #fff;
+
+    transform: rotate(-45deg);
+    text-shadow: -1px -1px 3px rgba(0,0,0,0.37);
+}
+.IkonModulGri .IkonModulGri-image {
+    margin-top: -25px;
+    position: relative;
+    border-radius: 8px;
+    height: var(--ikonyukseklik);
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: var(--ikonyukseklik);
+    margin-left: auto;
+    margin-right: auto;
+
+    /*border: 2px solid var(--renk01);*/
+    transform: rotate(45deg);
+    overflow: hidden;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,1);
+    background-color: #cccccc;
+    border: 0;
+}
+
+.IkonModulGri .resimbos {
+
+}
+.IkonModulGri-image img {
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    width: 150%;
+    height: 150%;
+    max-width: none;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+
+    border-radius: 50%;
+}
+
+
+
+
+.IkonModulGri .haricilink {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+
+    .category-moduleIkonModulGri {
+        grid-template-columns: 1fr;
+    }
+
+    .IkonModulGri .IkonModulGri-image .resimbos {
+
+    }
+
+    .IkonModulGri .IkonModulGri-introtext {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
