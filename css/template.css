@@ -275,8 +275,12 @@ background-color:var(--headBC);
 }
 #head {
 }
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+	background-color: white;
+}
 #header {
 height: var(--headdivH);
+	background-color: rgb(255, 255, 255);
     transition-duration: 0.5s;
     z-index: 10;
 /*	margin-top: var(--headerMT);*/
@@ -1362,6 +1366,9 @@ position: fixed;
 .fp-slide {
     float: left;
 }
+#menu li a, #menu li span{
+	color: black !important;
+}
 #myVideo{
 filter: brightness(60%) contrast(148%);
 -webkit-filter: brightness(60%) contrast(148%);
@@ -1415,6 +1422,10 @@ filter: brightness(60%) contrast(148%);
 	overflow-y: scroll;
 
 }
+#section0{
+	min-height: auto !important;
+}
+
 #section0, #section1, #section2,#section3,#section4 {
 	display: grid;
 	align-content: center;
