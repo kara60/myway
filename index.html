@@ -34,6 +34,7 @@
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
     <link href="css/jcemediabox.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <style>
         /* Custom for SIGPro */
         b.fancyboxCounter {
@@ -341,20 +342,8 @@
                             <div>
                                 <div id="fullpage">
                                     <div id="section0" class="section ">
-                                        <div class="intro">
-                                            <h3>Myway Consulting</h3>
-                                            <p class="text01">MYWAY Consulting, OTTONOM Mühendislik çözümleri
-                                                iştirakinde 2015 yılından bu yana yazılım geliştirme ve danışmanlık
-                                                alanında hizmet vermektedir. Çözüm odaklı olmayı esas alan MYWAY
-                                                Consulting iş ortaklarının ihtiyaçlarını doğru analiz ederek; hızlı,
-                                                yenilikçi ve sürdürülebilir çözümler sunmaktadır.</p>
-                                            <video id="myVideo" poster="/images/myway.png" autoplay="autoplay"
-                                                loop="loop" muted width="384" height="216">
-                                                <source src="media/ottonom.mp4" type="video/mp4">
-                                            </video>
-
-                                            <div class="asagiok"><a id="moveSectionDown" href="#section1"><em
-                                                        class="fas fa-angle-down" data-mce-empty="1"> </em></a></div>
+                                        <div class="container-fluid">
+                                            <img src="images/autodesk-banner-NEW.jpg" alt="">
                                         </div>
                                     </div>
                                     <div id="section1" class="section">
@@ -384,8 +373,8 @@
                                                 <div id="section3" class="section">
                                                     <div class="intro">
                                                         <div>
-                                                            <div class="moduletableIkonModul">
-                                                                <h3>Hizmetlerimiz</h3>
+                                                            <div class="moduletableIkonModul mb-5">
+                                                                <h3 class="mt-5">Hizmetlerimiz</h3>
                                                                 <link rel="stylesheet" href="css/IkonModul.css"
                                                                     type="text/css">
                                                                 <script>
@@ -476,10 +465,67 @@
                                                                     </ul>
                                                                 </div>
                                                             </div>
+                                                            <div class="container d-flex justify-content-between">
+                                                                <div class="card" style="width: 18rem;">
+                                                                    <img src="images/autocad_banner.jpg" style="height:76px; " class="card-img-top img-fluid" alt="...">
+                                                                    <div class="card-body">
+                                                                      <h5 class="card-title">AutoCAD nedir?</h5>
+                                                                      <p class="card-text">AutoCAD® yazılımının otomasyon, iş birliği ve makine öğrenimi özellikleriyle ekibinizin yaratıcılığını güçlendirin. Mimarlar, mühendisler ve inşaat uzmanları AutoCAD'i şu amaçlar doğrultusunda kullanır:</p>
+                                                                    </div>
+                                                                    <ul class="list-group list-group-flush">
+                                                                      <li class="list-group-item">Katı nesneler, yüzeyler ve örgü objeler ile 2B geometri ve 3B modeller tasarlama ve düzenleme</li>
+                                                                      <li class="list-group-item">Çizimleri karşılaştırma, nesneleri sayma, blok ekleme, çizelge oluşturma ve benzeri diğer işlemleri otomatik hale getirme</li>
+                                                                      <li class="list-group-item">Eklenti uygulamalar ve API'ler ile üretkenliği maksimum düzeye çıkarmak için özelleştirilmiş çalışma alanı oluşturma</li>
+                                                                    </ul>
 
+                                                                </div>
+                                                                <div class="card" style="width: 18rem;">
+                                                                    <img src="images/lt-2.png" style="height:76px;" class="card-img-top img-fluid" alt="...">
+                                                                    <div class="card-body">
+                                                                      <h5 class="card-title">AutoCAD Lt nedir?</h5>
+                                                                      <p class="card-text">2B tasarımlarınızı hassasiyet ve sınıfının en iyisi dokümantasyon özellikleriyle oluşturun. Mimarlar, mühendisler ve inşaat uzmanların AutoCAD LT®'yi kullanma nedenleri:</p>
+                                                                    </div>
+                                                                    <ul class="list-group list-group-flush">
+                                                                      <li class="list-group-item">Hassas 2B geometri ile tasarlayın, çizim yapın ve belge oluşturun</li>
+                                                                      <li class="list-group-item">Kapsamlı düzenleme, tasarım ve not ekleme araçları setine erişin</li>
+                                                                      <li class="list-group-item">Sezgisel ve özelleştirilebilir kullanıcı arabirimi ile projeleri daha hızlı tamamlayın</li>
+                                                                    </ul>
+                                                                
+                                                                </div>
+                                                                <div class="card" style="width: 18rem;">
+                                                                    <img src="images/Autodesk_blogbanner-1200x430-c-default.jpg" style="height:76px;" class="card-img-top img-fluid" alt="...">
+                                                                    <div class="card-body">
+                                                                      <h5 class="card-title">Fusion 360 nedir?</h5>
+                                                                      <p class="card-text">Fusion 360 nedir?
+                                                                        Fusion 360, ürün tasarımı ve üretim için bulut tabanlı 3B CAD, CAM, CAE ve PCB yazılım platformudur.</p>
+                                                                    </div>
+                                                                    <ul class="list-group list-group-flush">
+                                                                      <li class="list-group-item">Estetiğini, şeklini, duruşunu ve işlevini sağlamak istediğiniz şekilde ürün tasarlayın ve düzenleyin</li>
+                                                                      <li class="list-group-item">Kapsamlı elektronik gereçlerle ve PCB tasarım araçlarıyla her şeyi düzenleyin, tasarlayın ve oluşturun</li>
+                                                                      <li class="list-group-item">Zamandan ve paradan tasarruf ederken kaliteli parçaları daha hızlı tamamlayın</li>
+                                                                    </ul>
+                                                                
+                                                                </div>
+                                                                <div class="card" style="width: 18rem;">
+                                                                    <img src="images/inventor-training-banner.webp" style="height:76px;" class="card-img-top img-fluid" alt="...">
+                                                                    <div class="card-body">
+                                                                      <h5 class="card-title">Inventor nedir?</h5>
+                                                                      <p class="card-text">Inventor® 3D CAD yazılımı, profesyonel düzeyde 3B mekanik tasarım, dokümantasyon ve ürün simülasyon araçları sunar.</p>
+                                                                    </div>
+                                                                    <ul class="list-group list-group-flush">
+                                                                      <li class="list-group-item">Parametrik, doğrudan, serbest biçim ve kurala dayalı tasarım özelliklerinin güçlü bir karışımı. </li>
+                                                                      <li class="list-group-item">Sac metal, çerçeve tasarımı, tüp ve boru, kablo ve amp; kablo demeti, sunumlar, görüntü oluşturma, simülasyon, makine tasarımı ve daha fazlası için entegre araçlar.</li>
+                                                                      <li class="list-group-item">Üretim bilgilerini doğrudan 3B modele yerleştirmek için güvenilir DWG™ uyumluluğu ve güçlü Model Tabanlı Tanım yetenekleri.</li>
+                                                                    </ul>
+                                                            
+                                                                </div>
+                                                            </div>
+                                                            
                                                         </div>
                                                     </div>
+                                            
                                                 </div>
+                                                
                                                 <div id="section5" class="section fp-auto-height">
                                                     <div class="intro">
                                                         <div class="customfoot">
@@ -491,7 +537,7 @@
                                                                         Nilüfer / BURSA</p>
                                                                     <p class="contact-telephone"><a
                                                                             href="tel:+902244431116">Telefon: +90 (224)
-                                                                            443 11 16</a></p>
+                                                                            502 51 73</a></p>
                                                                     <p class="contact-mail"><span
                                                                             id="cloak695bdf623cefaf8e8ef855aeb472fc77"><a
                                                                                 href="mailto:info@myway-consulting.com">info@myway-consulting.com</a></span>
@@ -507,8 +553,7 @@
                                                                 </div>
                                                                 <div class="footTakip">
                                                                     <h3>Takipte Kalın</h3>
-                                                                    <p><a href="instagram.com/ottonomengineering"><i
-                                                                                class="fab fa-instagram"></i></a><a
+                                                                    <p><a
                                                                             href="https://www.linkedin.com/company/myway-consulting/about/"><i
                                                                                 class="fab fa-linkedin"></i></a></p>
 
