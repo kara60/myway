@@ -1418,9 +1418,7 @@ filter: brightness(60%) contrast(148%);
 	scroll-snap-align: center;
 }*/
 #fullpage {
-	scroll-snap-type: mandatory;
 	scroll-snap-points-y: repeat(100vh);
-	scroll-snap-type: y mandatory;
 	height: 100vH;
 	overflow-y: scroll;
 
