@@ -77,6 +77,9 @@ body {
 	font-style: normal;
     font-family: "OpenSans", serif;
 }
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+	padding: 0 !important;
+}
 div {
 	padding:0;
 	margin:0;
